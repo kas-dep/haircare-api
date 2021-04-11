@@ -25,8 +25,10 @@ app.use('/auth', authRouter);
 app.use('/coaDict', courseOfActiomDictRouter);
 app.use('/pcDict', productCategoryDict);
 
-app.listen(process.env.PORT, () => {
-  console.log('App is running');
+const port = process.env.PORT || '3000';
+
+app.listen(port, () => {
+  console.log(`App is running, port: ${port}`);
 });
 
 module.exports = app;
