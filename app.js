@@ -25,7 +25,7 @@ app.use('/auth', authRouter);
 app.use('/coaDict', courseOfActiomDictRouter);
 app.use('/pcDict', productCategoryDict);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log('App is running');
 });
 
