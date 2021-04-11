@@ -1,4 +1,4 @@
-# Haircare Place *-beckend*
+# Haircare Place *-backend*
 
 This is **the M*EAN stack (M\* is MySQL) aplication** that helps you monitor your hair care routine.
 You can add cosmetics to the list. In the calendar you can make a note of the treatment.
